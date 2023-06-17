@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="tests suite" parallel="true" >
+    <test name="test">
+        <groups>
+            <run>
+            <include name="Both" />
+        </run>
+        </groups>
+        <classes>
+            <class name="ForExample" />
+        </classes>
+    </test>
+</suite>
